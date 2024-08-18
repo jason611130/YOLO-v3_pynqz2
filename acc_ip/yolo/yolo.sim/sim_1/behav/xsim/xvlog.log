@@ -1,7 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jason/Desktop/acc_ip/Conv_acc.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Conv_acc
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jason/Desktop/acc_ip/PE.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module PE
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jason/Desktop/acc_ip/tb_Conv_acc.v" into library xil_defaultlib
-WARNING: [VRFC 10-3507] macro 'WIDTH' redefined [/home/jason/Desktop/acc_ip/tb_Conv_acc.v:1]
-INFO: [VRFC 10-311] analyzing module tb_Conv_acc
