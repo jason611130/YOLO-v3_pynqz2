@@ -1,0 +1,21 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Read data: 00b7004c00e80093, 
+Read data: 002a00fd006e0005, 
+Read data: 00d9007f001400a1, 
+Read data: 005800cb003e0082, 
+Read data: 00f3009a006c008d, 
+Read data: 007d004e009a0023, 
+Read data: 00ac00b2004700f5, 
+Read data: 0063001800d900b4, 
+Read data: 008f00e20013005a, 
+Read data: 008c002f007a00c2
+Read data: 0094006a00c800a1
+Read data: 004e007200240047
+Read data: 00080039004200e9
+Read data: 0050002400d2004f
+Read data: 0013004900c7002d
+Read data: 009200cb003b0018
+Read data: 0006008300a50010
+Read data: 00f8006600ed00a7
+$finish called at time : 310 ns : File "/home/jason/Desktop/acc_ip/tb_Conv_acc.v" Line 78
