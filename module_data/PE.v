@@ -14,17 +14,16 @@ module PE(clk,rst,Input_A,Input_B,Output_A,Output_B,Output_C);
 	reg 		signed [`WIDTH-1:0] 	Buffer_C;
 	
 	always@(posedge clk)begin
-			Buffer_A = Input_A;
-			Buffer_B = Input_B;
-			Buffer_C = Input_A * Input_B + Buffer_C;
-	end
-
-	always@(negedge clk)begin
-		if(rst)begin
-			Buffer_A = 0;
-			Buffer_B = 0;
-			Buffer_C = 0;
-		end
+	   if(rst)begin
+			Buffer_A <= 0;
+			Buffer_B <= 0;
+			Buffer_C <= 0;
+        end
+        else begin
+			Buffer_A <= Input_A;
+			Buffer_B <= Input_B;
+			Buffer_C <= Input_A * Input_B + Buffer_C;
+	   end
 	end
 
 	assign Output_A = Buffer_A;
